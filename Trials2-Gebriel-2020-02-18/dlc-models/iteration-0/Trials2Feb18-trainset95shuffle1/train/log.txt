@@ -1,0 +1,63 @@
+2020-02-18 22:35:58 Config:
+{'all_joints': [[0], [1], [2]],
+ 'all_joints_names': ['Elbow', 'Wrist', 'Shoulder'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Trials2Feb18\\Trials2_Gebriel95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\gebri\\Anaconda3\\envs\\dlc-windowsCPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Trials2Feb18\\Documentation_data-Trials2_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 3,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\gebri\\OneDrive\\Desktop\\DeepLabCuts\\conda-environments\\Trials2-Gebriel-2020-02-18',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\gebri\\OneDrive\\Desktop\\DeepLabCuts\\conda-environments\\Trials2-Gebriel-2020-02-18\\dlc-models\\iteration-0\\Trials2Feb18-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2020-02-19 03:26:51 iteration: 1000 loss: 0.0122 lr: 0.005
+2020-02-19 07:40:26 iteration: 2000 loss: 0.0052 lr: 0.005
+2020-02-19 12:05:42 iteration: 3000 loss: 0.0041 lr: 0.005
+2020-02-19 16:19:01 iteration: 4000 loss: 0.0035 lr: 0.005
+2020-02-19 20:53:32 iteration: 5000 loss: 0.0029 lr: 0.005
+2020-02-20 01:19:18 iteration: 6000 loss: 0.0027 lr: 0.005
+2020-02-20 05:56:31 iteration: 7000 loss: 0.0023 lr: 0.005
+2020-02-20 10:07:36 iteration: 8000 loss: 0.0022 lr: 0.005
+2020-02-20 14:22:22 iteration: 9000 loss: 0.0020 lr: 0.005
+2020-02-20 18:41:53 iteration: 10000 loss: 0.0019 lr: 0.005
+2020-02-20 22:58:03 iteration: 11000 loss: 0.0045 lr: 0.02

@@ -1,0 +1,55 @@
+# Project definitions (do not edit)
+Task: Trials2
+scorer: Gebriel
+date: Feb18
+
+# Project path (change when moving around)
+project_path: C:\Users\gebri\OneDrive\Desktop\DeepLabCuts\conda-environments\Trials2-Gebriel-2020-02-18
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\gebri\OneDrive\Desktop\DeepLabCuts\conda-environments\Trials2-Gebriel-2020-02-18\videos\Bicep Normal Speed.MOV:
+    crop: 0, 3840, 0, 2160
+bodyparts:
+- Elbow
+- Wrist
+- Shoulder
+start: 0
+stop: 1
+numframes2pick: 10
+
+# Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet:
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+default_net_type: resnet_50
+default_augmenter: default
